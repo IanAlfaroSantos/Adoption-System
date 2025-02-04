@@ -8,7 +8,7 @@ export const esRoleValido = async (role = ' ') => {
     if (!existeRol) {
         throw new Error(`El rol ${ role } no existe en la base de datos`);
     }
-};
+}
 
 export const existenteEmail = async (correo = ' ') => {
     
@@ -17,4 +17,12 @@ export const existenteEmail = async (correo = ' ') => {
     if (existeEmail) {
         throw new Error(`El correo ${ correo } ya existe en la base de datos`);
     }
-};
+}
+
+export const existeUsuarioById = async (id = '') => {
+    const existeUsuario = await User.findById(id);
+
+    if (!existeUsuario) {
+        throw new Error(`El ID ${ id } no existe en la base de datos`);
+    }
+}

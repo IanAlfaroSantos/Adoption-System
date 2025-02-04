@@ -15,7 +15,7 @@ export const login = async (req, res) => {
         });
 
         if (!user) {
-            return res.status(400).json({
+            return res.status(404).json({
                 msg: 'Credenciales incorrectas, Correo no existe en la base de datos'
             });
         }
@@ -68,8 +68,8 @@ export const register = async (req, res) => {
         const user = await Usuario.create({
             name: data.name,
             surname: data.surname,
-            username: data.username,
-            email: data.email,
+            username: data.username.toLowerCase(),
+            email: data.email.toLowerCase(),
             phone: data.phone,
             password: encryptedPassword,
             role: data.role,
@@ -89,7 +89,7 @@ export const register = async (req, res) => {
 
         return res.status(500).json({
             msg: "User registration failed",
-            error: error.message
+            error: err.message
         });
     }
 
