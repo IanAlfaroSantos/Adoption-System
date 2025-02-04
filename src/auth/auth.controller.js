@@ -33,7 +33,7 @@ export const login = async (req, res) => {
             });
         }
 
-        const token = await generarJWT(usser.id);
+        const token = await generarJWT(user.id);
 
         return res.status(200).json({
             msg: '¡¡¡¡¡Inicio de Sesión exitoso!!!!!',
@@ -89,7 +89,7 @@ export const register = async (req, res) => {
 
         return res.status(500).json({
             msg: "User registration failed",
-            error: err.message
+            error: error.message
         });
     }
 
