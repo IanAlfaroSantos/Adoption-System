@@ -62,6 +62,12 @@ export const updateUser = async (req, res = response) => {
 
         const { id } = req.params;
         const { _id, password, email, ...data } = req.body;
+        let { username } = req.body;
+ 
+        if (username) {
+            username = username.toLowerCase();
+            data.username = username;
+        }
 
         if (!password) {
             data.password = await hash(password);
