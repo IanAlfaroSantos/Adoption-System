@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "67aa04b1d8d4e697c25a5c5a"
+  },
+  "name": "Kira",
+  "description": "Perro Sahueso",
+  "age": 3,
+  "type": "Perro",
+  "keeper": {
+    "$oid": "67a9fdefae0fdca1a0059c54"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-10T13:52:49.578Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T13:52:49.578Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa08add9eb067fce8d3a78"
+  },
+  "name": "Shensy",
+  "description": "Perro Sahueso",
+  "age": 2,
+  "type": "Perro",
+  "keeper": {
+    "$oid": "67a9fe1dae0fdca1a0059c58"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-10T14:09:49.439Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T14:09:49.439Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa0907d9eb067fce8d3a83"
+  },
+  "name": "Daly",
+  "description": "Perro Pastor Aleman",
+  "age": 2,
+  "type": "Perro",
+  "keeper": {
+    "$oid": "67a9fdc4ae0fdca1a0059c50"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-10T14:11:19.084Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T16:23:27.117Z"
+  }
+}]

@@ -90,6 +90,34 @@ export const updateUser = async (req, res = response) => {
     }
 }
 
+export const updatePassword = async (req, res = response) => {
+
+    try {
+
+        const { id } = req.params;
+        const { _id, password, ...data } = req.body;
+
+        if (password) {
+            data.password = await hash(password);
+        }
+
+        const user = await User.findByIdAndUpdate(id, data, { new: true });
+
+        res.status(200).json({
+            success: true,
+            msg: 'Contraseña Actualizada',
+            user
+        })
+
+    } catch (error) {
+        res.status(500).json({
+            success: false,
+            msg: 'Error al actualizar contraseña',
+            error
+        })   
+    }
+}
+
 export const deleteUser = async (req, res = response) => {
     try {
         
@@ -122,13 +150,13 @@ export const trueUser = async (req, res = response) => {
         
         const user = await User.findByIdAndUpdate(id, { estado: true }, { new: true });
 
-        const verificarUser = req.user;
+        const authenticatedUser = req.user;
 
         res.status(200).json({
             success: true,
             msg: 'Usuario activado',
             user,
-            verificarUser
+            authenticatedUser
         })
 
     } catch (error) {

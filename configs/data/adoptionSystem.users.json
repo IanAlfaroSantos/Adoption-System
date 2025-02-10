@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "67a9fdc4ae0fdca1a0059c50"
+  },
+  "name": "Pablo",
+  "surname": "Castillo",
+  "username": "pablocastillo",
+  "email": "pablo10@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$qIMPsBNkibXhQodh1Fla2g$DZVLK+lkA7+HBydCYeWb0Yj0oqO/MHFKzMF+9IvLhm8",
+  "profilePicture": null,
+  "phone": "72347423",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-10T13:23:16.289Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T13:23:16.289Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a9fdefae0fdca1a0059c54"
+  },
+  "name": "Ian",
+  "surname": "Alfaro",
+  "username": "ianalfaro",
+  "email": "ialfasa2020@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$rVbIzH75qEsyAh5aTmK/mA$FQZiMy+gwwAknU3ZKZCRxJ0m0mgpppSPTDEtPp9Pvww",
+  "profilePicture": null,
+  "phone": "78324455",
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-10T13:23:59.614Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T13:33:39.608Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a9fe1dae0fdca1a0059c58"
+  },
+  "name": "Cuyun",
+  "surname": "Pantuj",
+  "username": "cuyunpantuj",
+  "email": "cuyun@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$ZBefZmc8QGjiLVnyPsxnJw$7t6mqCBMKRvqrzRMJrzvmnr7BYg3pZ5fhn2LWn2FmT8",
+  "profilePicture": null,
+  "phone": "81321321",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-10T13:24:45.626Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T16:11:41.292Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa09edd9b84b134b3d1bf8"
+  },
+  "name": "Kevin",
+  "surname": "Morro",
+  "username": "morrokevin",
+  "email": "morro@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$7Iqz92ikRkNq45dQuY6xDA$Rh8sOolf3wB2ppn/Ca7QtSublvquu86Qb2IxXdcQULU",
+  "profilePicture": null,
+  "phone": "91326545",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-10T14:15:09.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T14:15:09.675Z"
+  }
+}]
