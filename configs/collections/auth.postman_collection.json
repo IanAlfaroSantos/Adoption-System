@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "818541ec-b37e-4a0b-b61a-00c959bedfe7",
+		"_postman_id": "5031b3ab-a4d8-4ce7-b230-cebb6ff234ab",
 		"name": "auth",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "41997069"
@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Jose\",\r\n    \"surname\": \"Cortez\",\r\n    \"username\": \"JoseCortez\",\r\n    \"email\": \"jose@gmail.com\",\r\n    \"password\":\"00000000\",\r\n    \"phone\":\"74904201\",\r\n    \"role\": \"USER_ROLE\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Jesus\",\r\n    \"surname\": \"Sis\",\r\n    \"username\": \"JesusSis\",\r\n    \"email\": \"sis@gmail.com\",\r\n    \"password\":\"88888888\",\r\n    \"phone\":\"48237492\",\r\n    \"role\": \"USER_ROLE\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -44,7 +44,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"username\": \"JoseCortez\",\r\n    \"password\":\"33333333\"\r\n}",
+					"raw": "{\r\n    \"username\": \"JoseCortez\",\r\n    \"password\":\"66666666\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

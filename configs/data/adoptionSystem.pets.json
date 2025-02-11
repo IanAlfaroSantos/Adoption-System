@@ -45,14 +45,14 @@
   "age": 3,
   "type": "Perro",
   "keeper": {
-    "$oid": "67a9fdc4ae0fdca1a0059c50"
+    "$oid": "67a9fdefae0fdca1a0059c54"
   },
   "status": true,
   "createdAt": {
     "$date": "2025-02-10T14:11:19.084Z"
   },
   "updatedAt": {
-    "$date": "2025-02-11T02:25:20.990Z"
+    "$date": "2025-02-11T16:35:44.081Z"
   }
 },
 {
@@ -72,5 +72,24 @@
   },
   "updatedAt": {
     "$date": "2025-02-11T02:14:27.291Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ab7ae871208b1b382ef381"
+  },
+  "name": "Oso",
+  "description": "Hosky",
+  "age": 4,
+  "type": "Perro",
+  "keeper": {
+    "$oid": "67a9fdefae0fdca1a0059c54"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-11T16:29:28.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-11T16:29:28.360Z"
   }
 }]

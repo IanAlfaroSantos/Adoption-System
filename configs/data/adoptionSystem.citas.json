@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "67ab7a9071208b1b382ef379"
+  },
+  "pet": {
+    "$oid": "67aa0907d9eb067fce8d3a83"
+  },
+  "date": "2025-01-08",
+  "time": "08:30 am",
+  "user": {
+    "$oid": "67a9fdefae0fdca1a0059c54"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-11T16:28:00.413Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-11T16:28:00.413Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ab7b3571208b1b382ef38f"
+  },
+  "pet": {
+    "$oid": "67ab7ae871208b1b382ef381"
+  },
+  "date": "2025-01-10",
+  "time": "11:00 am",
+  "user": {
+    "$oid": "67ab7abc71208b1b382ef37d"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-11T16:30:45.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-11T16:30:45.753Z"
+  }
+}]

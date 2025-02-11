@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "2e68f0af-1f35-41a9-ab98-705965fa65c4",
+		"_postman_id": "5cf3352e-c2d1-45a9-8501-821ad787e4b8",
 		"name": "Users",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "41997069"
@@ -43,7 +43,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/adoptionSystem/v1/users/findUser/67aaa4bc528c5900ffd13ef2",
+					"raw": "http://localhost:3000/adoptionSystem/v1/users/findUser/67a9fdc4ae0fdca1a0059c50",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -54,7 +54,7 @@
 						"v1",
 						"users",
 						"findUser",
-						"67aaa4bc528c5900ffd13ef2"
+						"67a9fdc4ae0fdca1a0059c50"
 					]
 				}
 			},
@@ -98,7 +98,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"password\":\"33333333\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Jos\",\r\n    \"surname\": \"a\",\r\n    \"username\": \"JoseCo\",\r\n    \"email\": \"jose@gmail.co\",\r\n    \"password\":\"66666666\",\r\n    \"phone\":\"75165456\",\r\n    \"role\": \"USER_ROLE\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -130,7 +130,7 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyMzkwNTgsImV4cCI6MTczOTI0MjY1OH0.8-AHLRoKPOUxxn2r7oRaXFyjcNA9FskNcTvGNjmSnY0",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyOTA0MjYsImV4cCI6MTczOTI5NDAyNn0.m2wb4EuSc-pO1f4eslU1vbqJbYMJPLQM7QCjTpeCilI",
 						"type": "text"
 					}
 				],
@@ -158,7 +158,7 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyMzkwNTgsImV4cCI6MTczOTI0MjY1OH0.8-AHLRoKPOUxxn2r7oRaXFyjcNA9FskNcTvGNjmSnY0",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyOTA0MjYsImV4cCI6MTczOTI5NDAyNn0.m2wb4EuSc-pO1f4eslU1vbqJbYMJPLQM7QCjTpeCilI",
 						"type": "text"
 					}
 				],

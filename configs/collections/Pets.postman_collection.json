@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "e060227b-a0ab-4d6e-b485-b2ef0fc31dce",
+		"_postman_id": "40f34a4e-1be9-4fbc-bafc-ffe0313d6c2c",
 		"name": "Pets",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "41997069"
@@ -13,13 +13,13 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyMzkwNTgsImV4cCI6MTczOTI0MjY1OH0.8-AHLRoKPOUxxn2r7oRaXFyjcNA9FskNcTvGNjmSnY0",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyOTA0MjYsImV4cCI6MTczOTI5NDAyNn0.m2wb4EuSc-pO1f4eslU1vbqJbYMJPLQM7QCjTpeCilI",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Cronos\",\r\n    \"description\": \"Boxer\",\r\n    \"age\": \"3\",\r\n    \"type\": \"Perro\",\r\n    \"email\": \"jose@gmail.com\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Oso\",\r\n    \"description\": \"Hosky\",\r\n    \"age\": \"4\",\r\n    \"type\": \"Perro\",\r\n    \"email\": \"ialfasa2020@gmail.com\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -81,12 +81,12 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyMzkwNTgsImV4cCI6MTczOTI0MjY1OH0.8-AHLRoKPOUxxn2r7oRaXFyjcNA9FskNcTvGNjmSnY0",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyOTA0MjYsImV4cCI6MTczOTI5NDAyNn0.m2wb4EuSc-pO1f4eslU1vbqJbYMJPLQM7QCjTpeCilI",
 						"type": "text"
 					}
 				],
 				"url": {
-					"raw": "http://localhost:3000/adoptionSystem/v1/pets/67aa04b1d8d4e697c25a5c5a",
+					"raw": "http://localhost:3000/adoptionSystem/v1/pets/67ab7ae871208b1b382ef381",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -96,7 +96,7 @@
 						"adoptionSystem",
 						"v1",
 						"pets",
-						"67aa04b1d8d4e697c25a5c5a"
+						"67ab7ae871208b1b382ef381"
 					]
 				}
 			},
@@ -109,13 +109,13 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyMzkwNTgsImV4cCI6MTczOTI0MjY1OH0.8-AHLRoKPOUxxn2r7oRaXFyjcNA9FskNcTvGNjmSnY0",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyOTA0MjYsImV4cCI6MTczOTI5NDAyNn0.m2wb4EuSc-pO1f4eslU1vbqJbYMJPLQM7QCjTpeCilI",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Dalay\",\r\n    \"description\": \"Pastor Aleman\",\r\n    \"age\": 3,\r\n    \"type\": \"Perro\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Dalay\",\r\n    \"description\": \"Pastor Aleman\",\r\n    \"age\": 3,\r\n    \"type\": \"Perro\",\r\n    \"email\": \"ialfasa2020@gmail.com\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -146,7 +146,7 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyMzkwNTgsImV4cCI6MTczOTI0MjY1OH0.8-AHLRoKPOUxxn2r7oRaXFyjcNA9FskNcTvGNjmSnY0",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyOTA0MjYsImV4cCI6MTczOTI5NDAyNn0.m2wb4EuSc-pO1f4eslU1vbqJbYMJPLQM7QCjTpeCilI",
 						"type": "text"
 					}
 				],
@@ -174,7 +174,7 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyMzkwNTgsImV4cCI6MTczOTI0MjY1OH0.8-AHLRoKPOUxxn2r7oRaXFyjcNA9FskNcTvGNjmSnY0",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyOTA0MjYsImV4cCI6MTczOTI5NDAyNn0.m2wb4EuSc-pO1f4eslU1vbqJbYMJPLQM7QCjTpeCilI",
 						"type": "text"
 					}
 				],
