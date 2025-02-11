@@ -95,7 +95,8 @@ export const updatePassword = async (req, res = response) => {
     try {
 
         const { id } = req.params;
-        const { _id, password, ...data } = req.body;
+        const { _id, name, surname, username, email, phone, role, ...data } = req.body;
+        let { password } = req.body;
 
         if (password) {
             data.password = await hash(password);

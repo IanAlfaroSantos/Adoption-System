@@ -55,7 +55,7 @@
     "$date": "2025-02-10T13:24:45.626Z"
   },
   "updatedAt": {
-    "$date": "2025-02-10T16:11:41.292Z"
+    "$date": "2025-02-11T02:01:51.478Z"
   }
 },
 {
@@ -76,5 +76,25 @@
   },
   "updatedAt": {
     "$date": "2025-02-10T14:15:09.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aaa4bc528c5900ffd13ef2"
+  },
+  "name": "Jose",
+  "surname": "Carrera",
+  "username": "josecortez",
+  "email": "jose@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$10ifGLoZW3oMtDT1uRJlQg$eFa2a8xViW3QmkF6VhUQcNAE+2SfRkhSbi4GCrVE6/g",
+  "profilePicture": null,
+  "phone": "74904201",
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-11T01:15:40.541Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-11T01:58:33.945Z"
   }
 }]

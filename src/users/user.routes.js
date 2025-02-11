@@ -55,7 +55,7 @@ router.delete(
     deleteUser
 )
 
-router.delete(
+router.put(
     "/activate/:id",
     [
         validarJWT,

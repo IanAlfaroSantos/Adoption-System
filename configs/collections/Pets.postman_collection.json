@@ -1,0 +1,200 @@
+{
+	"info": {
+		"_postman_id": "e060227b-a0ab-4d6e-b485-b2ef0fc31dce",
+		"name": "Pets",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41997069"
+	},
+	"item": [
+		{
+			"name": "Agregar Mascota",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyMzkwNTgsImV4cCI6MTczOTI0MjY1OH0.8-AHLRoKPOUxxn2r7oRaXFyjcNA9FskNcTvGNjmSnY0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Cronos\",\r\n    \"description\": \"Boxer\",\r\n    \"age\": \"3\",\r\n    \"type\": \"Perro\",\r\n    \"email\": \"jose@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/adoptionSystem/v1/pets/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"adoptionSystem",
+						"v1",
+						"pets",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Todas Las Mascotas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/adoptionSystem/v1/pets?limite=10&desde=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"adoptionSystem",
+						"v1",
+						"pets"
+					],
+					"query": [
+						{
+							"key": "limite",
+							"value": "10"
+						},
+						{
+							"key": "desde",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Mascota Por Id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyMzkwNTgsImV4cCI6MTczOTI0MjY1OH0.8-AHLRoKPOUxxn2r7oRaXFyjcNA9FskNcTvGNjmSnY0",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/adoptionSystem/v1/pets/67aa04b1d8d4e697c25a5c5a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"adoptionSystem",
+						"v1",
+						"pets",
+						"67aa04b1d8d4e697c25a5c5a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Mascota",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyMzkwNTgsImV4cCI6MTczOTI0MjY1OH0.8-AHLRoKPOUxxn2r7oRaXFyjcNA9FskNcTvGNjmSnY0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Dalay\",\r\n    \"description\": \"Pastor Aleman\",\r\n    \"age\": 3,\r\n    \"type\": \"Perro\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/adoptionSystem/v1/pets/67aa0907d9eb067fce8d3a83",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"adoptionSystem",
+						"v1",
+						"pets",
+						"67aa0907d9eb067fce8d3a83"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Desactivar Mascota",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyMzkwNTgsImV4cCI6MTczOTI0MjY1OH0.8-AHLRoKPOUxxn2r7oRaXFyjcNA9FskNcTvGNjmSnY0",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/adoptionSystem/v1/pets/67aa0907d9eb067fce8d3a83",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"adoptionSystem",
+						"v1",
+						"pets",
+						"67aa0907d9eb067fce8d3a83"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Activar Mascota",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyMzkwNTgsImV4cCI6MTczOTI0MjY1OH0.8-AHLRoKPOUxxn2r7oRaXFyjcNA9FskNcTvGNjmSnY0",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/adoptionSystem/v1/pets/activate/67aa0907d9eb067fce8d3a83",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"adoptionSystem",
+						"v1",
+						"pets",
+						"activate",
+						"67aa0907d9eb067fce8d3a83"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

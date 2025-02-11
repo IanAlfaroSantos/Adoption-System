@@ -51,7 +51,7 @@ router.delete(
     deletePet
 )
 
-router.delete(
+router.put(
     "/activate/:id", 
     [
         validarJWT,

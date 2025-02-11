@@ -40,9 +40,9 @@
   "_id": {
     "$oid": "67aa0907d9eb067fce8d3a83"
   },
-  "name": "Daly",
-  "description": "Perro Pastor Aleman",
-  "age": 2,
+  "name": "Dalay",
+  "description": "Pastor Aleman",
+  "age": 3,
   "type": "Perro",
   "keeper": {
     "$oid": "67a9fdc4ae0fdca1a0059c50"
@@ -52,6 +52,25 @@
     "$date": "2025-02-10T14:11:19.084Z"
   },
   "updatedAt": {
-    "$date": "2025-02-10T16:23:27.117Z"
+    "$date": "2025-02-11T02:25:20.990Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aab283e659960a2a67d99f"
+  },
+  "name": "Cronos",
+  "description": "Boxer",
+  "age": 3,
+  "type": "Perro",
+  "keeper": {
+    "$oid": "67aaa4bc528c5900ffd13ef2"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-11T02:14:27.291Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-11T02:14:27.291Z"
   }
 }]
