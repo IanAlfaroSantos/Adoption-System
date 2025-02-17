@@ -1,95 +1,38 @@
 [{
   "_id": {
-    "$oid": "67aa04b1d8d4e697c25a5c5a"
+    "$oid": "67b35523fcd292b3f42843ad"
   },
-  "name": "Kira",
-  "description": "Perro Sahueso",
-  "age": 3,
+  "name": "loba",
+  "description": "Hosky",
+  "age": 5,
   "type": "Perro",
   "keeper": {
     "$oid": "67a9fdefae0fdca1a0059c54"
   },
   "status": true,
   "createdAt": {
-    "$date": "2025-02-10T13:52:49.578Z"
+    "$date": "2025-02-17T15:26:27.427Z"
   },
   "updatedAt": {
-    "$date": "2025-02-10T13:52:49.578Z"
+    "$date": "2025-02-17T15:26:27.427Z"
   }
 },
 {
   "_id": {
-    "$oid": "67aa08add9eb067fce8d3a78"
+    "$oid": "67b355c30e2f77433d189e89"
   },
-  "name": "Shensy",
-  "description": "Perro Sahueso",
+  "name": "bruno",
+  "description": "Hosky",
   "age": 2,
   "type": "Perro",
   "keeper": {
-    "$oid": "67a9fe1dae0fdca1a0059c58"
-  },
-  "status": true,
-  "createdAt": {
-    "$date": "2025-02-10T14:09:49.439Z"
-  },
-  "updatedAt": {
-    "$date": "2025-02-10T14:09:49.439Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "67aa0907d9eb067fce8d3a83"
-  },
-  "name": "Dalay",
-  "description": "Pastor Aleman",
-  "age": 3,
-  "type": "Perro",
-  "keeper": {
     "$oid": "67a9fdefae0fdca1a0059c54"
   },
   "status": true,
   "createdAt": {
-    "$date": "2025-02-10T14:11:19.084Z"
+    "$date": "2025-02-17T15:29:07.483Z"
   },
   "updatedAt": {
-    "$date": "2025-02-11T16:35:44.081Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "67aab283e659960a2a67d99f"
-  },
-  "name": "Cronos",
-  "description": "Boxer",
-  "age": 3,
-  "type": "Perro",
-  "keeper": {
-    "$oid": "67aaa4bc528c5900ffd13ef2"
-  },
-  "status": true,
-  "createdAt": {
-    "$date": "2025-02-11T02:14:27.291Z"
-  },
-  "updatedAt": {
-    "$date": "2025-02-11T02:14:27.291Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "67ab7ae871208b1b382ef381"
-  },
-  "name": "Oso",
-  "description": "Hosky",
-  "age": 4,
-  "type": "Perro",
-  "keeper": {
-    "$oid": "67a9fdefae0fdca1a0059c54"
-  },
-  "status": true,
-  "createdAt": {
-    "$date": "2025-02-11T16:29:28.360Z"
-  },
-  "updatedAt": {
-    "$date": "2025-02-11T16:29:28.360Z"
+    "$date": "2025-02-17T15:29:07.483Z"
   }
 }]

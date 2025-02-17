@@ -7,7 +7,7 @@ export const saveCita = async (req, res) => {
 
         const data = req.body;
         const user = await User.findOne({ email: data.email });
-        const pet = await Pet.findOne({ name: data.name });
+        const pet = await Pet.findOne({ name: data.name.toLowerCase() });
         
         if (!user) {
             return res.status(404).json({

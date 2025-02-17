@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "40f34a4e-1be9-4fbc-bafc-ffe0313d6c2c",
+		"_postman_id": "2de1f851-d62e-4757-a903-2ea2655aa204",
 		"name": "Pets",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "41997069"
@@ -13,13 +13,13 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3MzkyOTA0MjYsImV4cCI6MTczOTI5NDAyNn0.m2wb4EuSc-pO1f4eslU1vbqJbYMJPLQM7QCjTpeCilI",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhYTRiYzUyOGM1OTAwZmZkMTNlZjIiLCJpYXQiOjE3Mzk4MDU1NTQsImV4cCI6MTczOTgwOTE1NH0.kntBtcwaj7OepxczpUZ9UTN1iEEG3K8B3_6gxz8vK1g",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Oso\",\r\n    \"description\": \"Hosky\",\r\n    \"age\": \"4\",\r\n    \"type\": \"Perro\",\r\n    \"email\": \"ialfasa2020@gmail.com\"\r\n}",
+					"raw": "{\r\n    \"name\": \"BRUNO\",\r\n    \"description\": \"Hosky\",\r\n    \"age\": \"2\",\r\n    \"type\": \"Perro\",\r\n    \"email\": \"ialfasa2020@gmail.com\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

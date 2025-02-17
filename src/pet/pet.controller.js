@@ -14,12 +14,11 @@ export const savePet = async (req, res) => {
             })
         }
 
-        const pet = new Pet({
+        const pet = await Pet.create({
             ...data,
-            keeper: user._id
-        })
-
-        await pet.save();
+            name: data.name.toLowerCase(),
+            keeper: user._id,
+        });
 
         res.status(200).json({
             success: true,
