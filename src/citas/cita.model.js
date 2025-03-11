@@ -9,11 +9,10 @@ const citaSchema = Schema({
     },
     date: {
         type: String,
-        required: true,
-    },
-    time: {
-        type: String,
-        required: true,
+        default: () => {
+            const current = new Date();
+            return current.toISOString().slice(0, 16).replace("T", " ");
+        }
     },
     user: {
         type: Schema.Types.ObjectId,
